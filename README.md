@@ -1,6 +1,6 @@
 ## Rentals
 
-Manage rentals for Afhaz apps
+Manage rentals for Afhaz Cabs
 
 #### License
 

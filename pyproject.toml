@@ -1,9 +1,9 @@
 [project]
 name = "rentals"
 authors = [
-    { name = "saad", email = "saadaltafkhan456@gmial.com"}
+    { name = "saad", email = "saadaltafkhan456@gmail.com"}
 ]
-description = "Manage rentals for Afhaz apps"
+description = "Manage rentals for Afhaz Cabs"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

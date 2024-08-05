@@ -1,8 +1,8 @@
 app_name = "rentals"
 app_title = "Rentals"
 app_publisher = "saad"
-app_description = "Manage rentals for Afhaz apps"
-app_email = "saadaltafkhan456@gmial.com"
+app_description = "Manage rentals for Afhaz Cabs"
+app_email = "saadaltafkhan456@gmail.com"
 app_license = "mit"
 # required_apps = []
 

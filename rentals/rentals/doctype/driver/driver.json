@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-08-01 12:50:15.769331",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enable",
+  "first_name",
+  "driver_license",
+  "fullname",
+  "column_break_xfea",
+  "last_name",
+  "ph_number",
+  "driver_profile"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "enable",
+   "fieldtype": "Check",
+   "label": "Enable"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "driver_license",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Driver License",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "FullName",
+   "options": "f\"{doc.first_name} {doc.last_name}\""
+  },
+  {
+   "fieldname": "column_break_xfea",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "ph_number",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Ph Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "driver_profile",
+   "fieldtype": "Attach Image",
+   "label": "Driver Profile"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 22:26:44.983865",
+ "modified_by": "Administrator",
+ "module": "Rentals",
+ "name": "Driver",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "first_name"
+}
